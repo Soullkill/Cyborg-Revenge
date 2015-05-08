@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 1caf9c727aac71444813e675cc862b3b
+timeCreated: 1431089514
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Jean-Michel-Smith2_0
+    21300002: Jean-Michel-Smith2_1
+    21300004: Jean-Michel-Smith2_2
+    21300006: Jean-Michel-Smith2_3
+    21300008: Jean-Michel-Smith2_4
+    21300010: Jean-Michel-Smith2_5
+    21300012: Jean-Michel-Smith2_6
+    21300014: Jean-Michel-Smith2_7
+    21300016: Jean-Michel-Smith2_8
+    21300018: Jean-Michel-Smith2_9
+    21300020: Jean-Michel-Smith2_10
+    21300022: Jean-Michel-Smith2_11
+    21300024: Jean-Michel-Smith2_12
+    21300026: Jean-Michel-Smith2_13
+    21300028: Jean-Michel-Smith2_14
+    21300030: Jean-Michel-Smith2_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Jean-Michel-Smith2_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 782
+        width: 138
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jean-Michel-Smith2_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 783
+        width: 138
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jean-Michel-Smith2_2
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 782
+        width: 139
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jean-Michel-Smith2_3
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 783
+        width: 138
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jean-Michel-Smith2_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 514
+        width: 137
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jean-Michel-Smith2_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 514
+        width: 138
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jean-Michel-Smith2_6
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 514
+        width: 139
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jean-Michel-Smith2_7
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 514
+        width: 138
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jean-Michel-Smith2_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 257
+        width: 93
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jean-Michel-Smith2_9
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 257
+        width: 89
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jean-Michel-Smith2_10
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 257
+        width: 89
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jean-Michel-Smith2_11
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 257
+        width: 89
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jean-Michel-Smith2_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 89
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jean-Michel-Smith2_13
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 90
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jean-Michel-Smith2_14
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 0
+        width: 92
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jean-Michel-Smith2_15
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 0
+        width: 90
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

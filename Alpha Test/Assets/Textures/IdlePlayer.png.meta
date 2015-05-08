@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 97dc1bce67d2ff74bbc9c83f416f3ce9
+timeCreated: 1431098065
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: IdlePlayer_0
+    21300002: IdlePlayer_1
+    21300004: IdlePlayer_2
+    21300006: IdlePlayer_3
+    21300008: IdlePlayer_4
+    21300010: IdlePlayer_5
+    21300012: IdlePlayer_6
+    21300014: IdlePlayer_7
+    21300016: IdlePlayer_8
+    21300018: IdlePlayer_9
+    21300020: IdlePlayer_10
+    21300022: IdlePlayer_11
+    21300024: IdlePlayer_12
+    21300026: IdlePlayer_13
+    21300028: IdlePlayer_14
+    21300030: IdlePlayer_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: IdlePlayer_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 783
+        width: 138
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IdlePlayer_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 783
+        width: 138
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IdlePlayer_2
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 783
+        width: 138
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IdlePlayer_3
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 783
+        width: 138
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IdlePlayer_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 514
+        width: 138
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IdlePlayer_5
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 514
+        width: 138
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IdlePlayer_6
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 514
+        width: 138
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IdlePlayer_7
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 514
+        width: 138
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IdlePlayer_8
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 257
+        width: 89
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IdlePlayer_9
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 257
+        width: 89
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IdlePlayer_10
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 257
+        width: 89
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IdlePlayer_11
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 257
+        width: 89
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IdlePlayer_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 90
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IdlePlayer_13
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0
+        width: 90
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IdlePlayer_14
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 0
+        width: 90
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IdlePlayer_15
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 0
+        width: 90
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
