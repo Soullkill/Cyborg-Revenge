@@ -55,11 +55,6 @@ public class MoveScript : MonoBehaviour {
 			previousValue = 3;
 		} 
 
-	
-
-		print("Valeur X :"  + inputX);
-		print ("Valeur Y :" +  inputY);
-
 
 	}
 
@@ -73,10 +68,6 @@ public class MoveScript : MonoBehaviour {
 			maxSpeed * inputY);
 
 		GetComponent<Rigidbody2D> ().velocity = movement;
-		//anim.SetFloat ("Speed", Mathf.Abs(inputX));
-		//GetComponent<Rigidbody2D> ().velocity = new Vector2 (maxSpeed * inputX,
-		//                                                     maxSpeed * inputY);
-
 
 	}
 
