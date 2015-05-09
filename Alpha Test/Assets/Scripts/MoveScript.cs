@@ -67,7 +67,6 @@ public class MoveScript : MonoBehaviour {
 		movement = new Vector2 (
 			maxSpeed * inputX,
 			maxSpeed * inputY);
-
 		GetComponent<Rigidbody2D> ().velocity = movement;
 
 	}

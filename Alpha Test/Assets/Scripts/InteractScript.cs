@@ -9,7 +9,8 @@ public class InteractScript : MonoBehaviour {
 	// Use this for initialization
 
 	Collider2D otherObj;
-	GameObject canvas;
+	GameObject canvas, P, PC;
+	Animator animD, animC1, animC2, animP;
 	Text dialogue;
 	string text;
 	string[] lines;
@@ -20,7 +21,13 @@ public class InteractScript : MonoBehaviour {
 		canvas = GameObject.Find("BoxDialogue");
 		dialogue = canvas.GetComponentInChildren<Text>();
 		canvas.SetActive (false);
-
+		animD = GameObject.Find ("Door").GetComponent<Animator>();
+		animC1 = GameObject.Find ("Cyborg1").GetComponent<Animator>();
+		animC2 = GameObject.Find ("Cyborg2").GetComponent<Animator>();
+		animP = GameObject.Find ("PlayerCinematic").GetComponent<Animator>();
+		P = GameObject.Find ("Player");
+		PC = GameObject.Find ("PlayerCinematic");
+		PC.SetActive (false);
 	}
 
 	void LoadFile(){
@@ -38,16 +45,40 @@ public class InteractScript : MonoBehaviour {
 	{
 		if (Input.GetKeyUp (KeyCode.JoystickButton0) || Input.GetKeyDown(KeyCode.E))
 		{
-			Debug.Log("Gun");
+
 			if (otherObj.gameObject.name == "Gun") 
 			{
-				canvas.SetActive (true);
+				//canvas.SetActive (true);
+				animD.SetTrigger("OpenDoor");
+				animC1.SetTrigger("Begin");
+				animC2.SetTrigger("Begin");
 
 			}
 		}
 
 	}
 	void OnCollisionStay2D(Collision2D otherObj){
+		if (Input.GetKeyDown (KeyCode.Alpha1)) {
+			if(otherObj.gameObject.name == "Phone")
+			{
+				P.SetActive(false);
+				PC.SetActive(true);
+				animP.SetTrigger("Escape");
+				animD.SetTrigger("OpenDoor");
+				animC1.SetTrigger("Begin");
+				animC2.SetTrigger("Begin");
+			}
+		} else if (Input.GetKeyDown (KeyCode.Alpha2)) {
+			if(otherObj.gameObject.name == "Phone")
+			{
+				P.SetActive(false);
+				PC.SetActive(true);
+				animP.SetTrigger("Fight");
+				animD.SetTrigger("OpenDoor");
+				animC1.SetTrigger("Begin");
+				animC2.SetTrigger("Begin");
+			}
+		}
 		if (Input.GetKeyUp (KeyCode.JoystickButton0) || Input.GetKeyDown(KeyCode.E)) 
 		{
 			LoadFile ();
