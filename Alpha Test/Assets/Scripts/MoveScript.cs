@@ -57,8 +57,8 @@ public class MoveScript : MonoBehaviour {
 
 	
 
-		print("Valeur X :"  + inputX);
-		print ("Valeur Y :" +  inputY);
+		//print("Valeur X :"  + inputX);
+		//print ("Valeur Y :" +  inputY);
 
 
 	}
