@@ -5,7 +5,7 @@ public class Events : MonoBehaviour {
 
 	Animator animD, animC1, animC2;
 	bool choice, fight, escape;
-	GameObject player, C1, C2, Collider;
+	GameObject player, C1, C2;
 	IEnumerator Wait()
 	{
 		yield return new WaitForSeconds(2.0f);
@@ -20,8 +20,6 @@ public class Events : MonoBehaviour {
 		player = GameObject.Find ("Player");
 		C1 = GameObject.Find ("Cyborg1");
 		C2 = GameObject.Find ("Cyborg2");
-		Collider = GameObject.Find ("Collider");
-		Collider.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -35,7 +33,6 @@ public class Events : MonoBehaviour {
 			choice = true;
 		}
 		if (choice) {
-			Collider.SetActive(true);
 			if(fight || escape)
 			{
 				//Les cyborgs marchent vers le héros
