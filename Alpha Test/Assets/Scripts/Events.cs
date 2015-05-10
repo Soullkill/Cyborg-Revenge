@@ -33,31 +33,7 @@ public class Events : MonoBehaviour {
 			choice = true;
 		}
 		if (choice) {
-			if(fight || escape)
-			{
-				//Les cyborgs marchent vers le héros
-				Vector2 VecC1, VecC2;
-				VecC1 = C1.transform.position - player.transform.position;
-				VecC2 = C2.transform.position - player.transform.position;
-				if(VecC1.x>0)
-				{
-					Debug.Log("Fight");
-					C1.GetComponent<Rigidbody2D>().velocity = new Vector2(0.1f, 0f);
-				}
-				else if(VecC1.x<0)
-				{
-					C1.GetComponent<Rigidbody2D>().velocity = new Vector2(-0.1f, 0f);
-				}
-			}
-			if(fight)
-			{
 
-			}
-			else if(escape)
-			{
-			}
-			else
-			{
 				if(Input.GetKeyDown(KeyCode.Alpha1))
 				{
 					//Fight
@@ -69,7 +45,7 @@ public class Events : MonoBehaviour {
 					//Escape
 					escape = true;
 				}
-			}
+
 		}
 	}
 }
